@@ -1,4 +1,4 @@
-module github.com/Jonathan-Zollinger/utils
+module github.com/Jonathan-Zollinger/go-utils
 
 go 1.19
 
