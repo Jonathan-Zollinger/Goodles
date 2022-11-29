@@ -1,4 +1,4 @@
-module github.com/Jonathan-Zollinger/go-utils
+module github.com/Jonathan-Zollinger/Goodles
 
 go 1.19
 
