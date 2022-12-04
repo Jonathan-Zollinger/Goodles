@@ -1,14 +1,13 @@
 package Goodles
 
 import (
+	"log"
 	"os"
-
-	"github.com/sirupsen/logrus"
 )
 
-func CheckError(err error, logger logrus.StdLogger) {
+func CheckError(err error, log log.Logger) {
 	if err != nil {
-		logger.Fatal("Fatal Error:", err.Error())
+		log.Fatal("Fatal Error:", err.Error())
 		os.Exit(1)
 	}
 }
